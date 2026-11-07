@@ -2,13 +2,46 @@
 <html lang="no">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
   <title>Min første nettside</title>
+
+  <style>
+    body {
+      background: #f3edff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      color: #352650;
+    }
+
+    h1 {
+      color: #7546b8;
+    }
+
+    button {
+      background: #7546b8;
+      color: white;
+      border: none;
+      padding: 14px 25px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hei, verden!</h1>
-  <p>Dette er mitt første GitHub-prosjekt.</p>
-  <button onclick="alert('Det fungerer!')">
-    Klikk her
-  </button>
+  <h1>Velkommen til nettsiden min!</h1>
+
+  <p>Dette er min aller første nettside.</p>
+  <p>Jeg har laget den med HTML og GitHub!</p>
+
+  <button onclick="siHei()">Klikk her!</button>
+
+  <script>
+    function siHei() {
+      alert("Hei! Nettsiden fungerer!");
+    }
+  </script>
 </body>
 </html>
